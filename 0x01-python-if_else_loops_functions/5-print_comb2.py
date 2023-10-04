@@ -4,4 +4,3 @@ for r in range(0, 100):
         print("{}".format(r))
     else:
         print("{:02}".format(r), end=", ")
-
