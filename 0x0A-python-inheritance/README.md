@@ -1,0 +1,3 @@
+THis sis the README file 
+
+PYTHON INHERITANCE
