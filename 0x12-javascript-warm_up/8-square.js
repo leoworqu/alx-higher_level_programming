@@ -11,4 +11,6 @@ if (!isNaN(arg)) {
     }
     console.log(result);
   }
+} else {
+  console.log('Missing size');
 }
