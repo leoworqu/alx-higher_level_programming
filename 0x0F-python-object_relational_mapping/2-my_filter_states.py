@@ -15,8 +15,12 @@ def search_states_by_name(username, password, database, state_name):
     cur = conn.cursor()
 
     # Use parameterized query to avoid SQL injection
-    query = "SELECT * FROM states WHERE name = %s ORDER BY id ASC"
-    cur.execute(query, (state_name,))
+    query = '''
+            SELECT * FROM states
+            WHERE states.name = '{}'
+            ORDER BY states.id
+            '''.format(state_name))
+    cur.execute(query)
 
     query_rows = cur.fetchall()
 
