@@ -18,4 +18,6 @@ def list_states(username, password, database):
     conn.close()
 
 if __name__ == "__main__":
+    """ executes  a connection to the MySQL server
+    """
     list_states(*sys.argv[1:])
