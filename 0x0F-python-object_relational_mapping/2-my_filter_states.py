@@ -19,7 +19,7 @@ def search_states_by_name(username, password, database, state_name):
             SELECT * FROM states
             WHERE states.name = '{}'
             ORDER BY states.id
-            '''.format(state_name))
+            '''.format(state_name)
     cur.execute(query)
 
     query_rows = cur.fetchall()
