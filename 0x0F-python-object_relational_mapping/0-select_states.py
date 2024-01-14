@@ -6,6 +6,8 @@ import MySQLdb
 import sys
 
 def list_states(username, password, database):
+    """ Establish a connection to the MySQL server
+    """
     conn = MySQLdb.connect(host="localhost", port=3306, user=username, passwd=password, db=database, charset="utf8")
     cur = conn.cursor()
     cur.execute("SELECT * FROM states ORDER BY id ASC")
