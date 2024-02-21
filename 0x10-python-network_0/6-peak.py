@@ -1,16 +1,8 @@
 #!/usr/bin/python3
-"""This module contains functions to 
-find peaks in a list of unsorted ints."""
+"""find peaks in a list of unsorted ints."""
 
 def find_peak(list_of_integers):
-     """Find a peak in a list of unsorted integers.
-
-    Args:
-        list_of_integers (list): A list of unsorted integers.
-
-    Returns:
-        int: A peak in the list of integers.
-    """
+    """Find a peak in a list of unsorted integers."""
     if not list_of_integers:
         return None
 
