@@ -19,4 +19,4 @@ if __name__ == "__main__":
         data = response.json()
         print(data['id'])
     else:
-        print('None ')
+        print('None')
