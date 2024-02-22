@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-akes in a URL, sends a request to the URL and
-displays the value of the variable X-Request-Id
+takes a URL, sends a request and displays value of the variable X-Request-Id
 """
 
 
