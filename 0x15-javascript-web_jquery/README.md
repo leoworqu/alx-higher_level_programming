@@ -1,4 +1,3 @@
-0x14. JavaScript - Web scraping
-Scripting
-API
+0x15. JavaScript - Web jQuery
+Front-end
 JavaScript
